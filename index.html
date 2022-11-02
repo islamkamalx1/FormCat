@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="info">
+        <h2><span>Cat</span> Reloaded</h2>
+        <p>Join Us</p>
+      </div>
+      <form>
+        <label for="">First name</label>
+        <div class="input-field">
+          <input class="input-w" type="text" />
+        </div>
+        <label for="">Last name</label>
+        <div class="input-field">
+          <input class="input-w" type="text" />
+        </div>
+        <label for="">Email</label>
+        <div class="input-field">
+          <input class="input-w" type="email" />
+        </div>
+        <label for="">Age</label>
+        <div class="input-field">
+          <input class="input-w" type="number" />
+        </div>
+        <div class="input-field">
+          <label class="gender">Gender</label>
+          <input id="male" type="radio" value="male" name="Gender" />
+          <label for="male">Male</label>
+          <input id="female" type="radio" value="female" name="Gender" />
+          <label for="female">Female</label>
+        </div>
+        <label>Message</label>
+        <div class="text-area">
+          <textarea cols="30" rows="10"></textarea>
+        </div>
+        <div class="btn-container">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
